@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+        <session-factory>
+                <property name="connection.url">jdbc:mysql://localhost:3306/jdy</property>
+                <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+                <mapping class="com.spring.hibernate.entities.AccountEntity"/>
+                <!-- <mapping resource="com/spring/hibernate/entities/AccountEntity.hbm.xml"/>-->
+                <mapping class="com.spring.hibernate.entities.BookEntity"/>
+                <!--<mapping resource="com/spring/hibernate/entities/BookEntity.hbm.xml"/>-->
+                <mapping class="com.spring.hibernate.entities.BookStockEntity"/>
+                <!--<mapping resource="com/spring/hibernate/entities/BookStockEntity.hbm.xml"/>-->
+        </session-factory>
+</hibernate-configuration>

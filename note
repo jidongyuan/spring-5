@@ -1,0 +1,15 @@
+1.spring整合hibernate整合什么？
+（1）由IOC容器来管理Hibernate的sessionFactory
+（2）让hibernate使用上spring的声明式事务
+
+2.整合步骤：
+（1）加入hibernate
+①jar包
+②添加hibernate配置文件：hibernate.cfg.xml
+③编写持久化类对应的.hbm.xml文件
+（2）加入spring
+①jar包
+②\加入spring的配置文件
+（3）整合
+
+3.编写代码
