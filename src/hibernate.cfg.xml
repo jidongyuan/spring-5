@@ -6,6 +6,7 @@
         <session-factory>
                 <property name="connection.url">jdbc:mysql://localhost:3306/jdy</property>
                 <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
                 <mapping class="com.spring.hibernate.entities.AccountEntity"/>
                 <!-- <mapping resource="com/spring/hibernate/entities/AccountEntity.hbm.xml"/>-->
                 <mapping class="com.spring.hibernate.entities.BookEntity"/>
